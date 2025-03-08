@@ -13,10 +13,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private Button Light;
-    private Button Dark;
-    private Button Normal;
-    private LinearLayout linearLayout;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -29,31 +25,30 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        this.Light = findViewById(R.id.btnLight);
-        Dark = findViewById(R.id.btnDark);
-        Normal = findViewById(R.id.btnNormal);
-        linearLayout = findViewById(R.id.linear);
+        LinearLayout linearLayout= findViewById(R.id.linear);;
+        Button Light=findViewById(R.id.btnLight);;
+        Button Dark= findViewById(R.id.btnDark);
+        Button Normal=findViewById(R.id.btnNormal);
 
         Light.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View v) {
-                linearLayout.setBackgroundColor(R.color.read);
+                linearLayout.setBackgroundColor(getResources().getColor(R.color.read));
             }
         });
         Dark.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View v) {
-                linearLayout.setBackgroundColor(R.color.grey1);
+                linearLayout.setBackgroundColor(getResources().getColor(R.color.grey1));
             }
         });
         Normal.setOnClickListener(new View.OnClickListener() {
-
             @SuppressLint("ResourceAsColor")
             @Override
             public void onClick(View v) {
-                linearLayout.setBackgroundColor(140);
+                linearLayout.setBackgroundColor(getResources().getColor(R.color.white));
             }
         });
 

@@ -4,33 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linear"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:textColor="@color/white"
         android:text="Light"
         android:backgroundTint="@color/purple_500"
         />
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Dark"
+        android:textColor="@color/white"
         android:backgroundTint="@color/purple_500"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnNormal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:layout_margin="20dp"
         android:text="Normal"
         android:backgroundTint="@color/purple_500"
