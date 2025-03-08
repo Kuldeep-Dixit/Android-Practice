@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         upload.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Uploading..", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Uploading...", Toast.LENGTH_SHORT).show();
             }
         });
 
