@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animations</string>
+    <string name="anim1">Translate</string>
+    <string name="anim2">Alpha</string>
+    <string name="anim3">Rotate</string>
+    <string name="anim4">Scale</string>
+
+    <string name="text">Hello Their, This is Animation.</string>
+
+</resources>
