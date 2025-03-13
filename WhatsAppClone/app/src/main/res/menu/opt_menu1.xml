@@ -1,4 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opt_scan"
+        android:title="QR Scan"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/opt_camera"
+        android:title="Camera"
+        android:icon="@drawable/camera_solid"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/opt_newGroup"
+        android:title="New Group"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/opt_newBroadCast"
+        android:title="New Broadcast"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/opt_linkedDevice"
+        android:title="Linked Devices"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/opt_starredMessages"
+        android:title="Starred Messages"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/opt_payments"
+        android:title="Payments"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/opt_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="collapseActionView"
+        />
 
 </menu>
