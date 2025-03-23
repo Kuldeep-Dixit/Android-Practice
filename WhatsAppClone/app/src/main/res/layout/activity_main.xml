@@ -12,30 +12,57 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:id="@+id/toolbar"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:textSize="20dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:text="WhatsApp Clone"-->
-<!--                android:textColor="#4BCA2F"-->
-<!--                />-->
+            </LinearLayout>
 
 
-
-        </LinearLayout>
-
-
-    </androidx.appcompat.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_height="?attr/actionBarSize">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="135dp"
+                android:id="@+id/btnChats"
+                android:layout_height="match_parent"
+                android:text="Chats"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnStatus"
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:text="Status"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCalls"
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:text="Calls"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
 
 </LinearLayout>
