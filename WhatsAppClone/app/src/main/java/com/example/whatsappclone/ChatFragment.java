@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
 public class ChatFragment extends Fragment {
 
-    String[] arr  = {"One","two" ,"Three","four","five","six","seven","eight","nine","ten","One","two" ,"Three","four","five","six","seven","eight","nine","ten"};
+    String[] arr  = {"One","two" ,"Three","four","five","six","seven","eight","nine","ten","One","two" ,"Three","four","five","six","seven","eight","nine","ten"," "};
 
     public ChatFragment() {
         // Required empty public constructor

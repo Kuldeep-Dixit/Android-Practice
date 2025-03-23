@@ -13,7 +13,7 @@ import android.widget.ListView;
 
 public class StatusFragment extends Fragment {
 
-    String[] arr  = {"One","two" ,"Three","four","five","six","seven","eight","nine","ten","One","two" ,"Three","four","five","six","seven","eight","nine","ten"};
+    String[] arr  = {"One","two" ,"Three","four","five","six","seven","eight","nine","ten","One","two" ,"Three","four","five","six","seven","eight","nine","ten"," "};
 
     public StatusFragment() {
         // Required empty public constructor
