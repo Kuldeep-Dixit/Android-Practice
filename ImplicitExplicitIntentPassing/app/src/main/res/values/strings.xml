@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImplicitExplicitIntentPassing</string>
+    <string name="number">tel: +911234567890</string>
+
+</resources>
