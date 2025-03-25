@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="QR Code"
+        android:id="@+id/btnorCode"
+        app:showAsAction="always"
+        />
+    <item android:title="Camera"
+        android:id="@+id/btnCamera"
+        app:showAsAction="always"
+        />
+    <item android:title="New Group"
+        android:id="@+id/btnNewGroup"
+        app:showAsAction="never"
+        />
+    <item android:title="New Broadcast"
+        android:id="@+id/btnNewBroadcast"
+        app:showAsAction="never"
+        />
+    <item android:title="Linked Devices"
+        android:id="@+id/btnLinkedDevices"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Starred Messages"
+        android:id="@+id/btnStarredMessages"
+        app:showAsAction="never"
+        />
+    <item android:title="Payments"
+        android:id="@+id/btnPayments"
+        app:showAsAction="never"
+        />
+    <item android:title="Settings"
+        android:id="@+id/btnSettings"
+        app:showAsAction="never"
+        />
 
 </menu>
