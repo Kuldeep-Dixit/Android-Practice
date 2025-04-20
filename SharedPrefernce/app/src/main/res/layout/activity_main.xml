@@ -6,22 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#37D8EB"
-    tools:context=".HomeActivity">
+    android:background="#FFB4B4"
+    android:gravity="center"
+    tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Log Out"
-        android:id="@+id/btnlogOut"
-        android:layout_gravity="end"
-        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:textSize="20dp"
-        android:text="Welcome, Sir"/>
+        android:text="Loading your screen"
+        />
+
+
+    <ProgressBar
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
 
 </LinearLayout>
